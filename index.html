@@ -97,29 +97,21 @@
       animation-delay: 1s; /* Delay to allow AOS fade effect first */
     }
 
-   .btn-primary {
-      background-color: #007bff;
-      border-color: #007bff;
-      opacity: 0; /* Initial opacity for animation */
-      transform: scale(0); /* Initial scale for animation */
-      animation: pop-up 1s ease-out forwards;
-      animation-delay: 1.5s; /* Delay to allow AOS fade effect first */
-    }
- .btn-primary:hover {
-      background-color: #28a745; /* Change to green on hover */
-      border-color: #28a745; /* Change border to green on hover */
-    }
-    @keyframes pop-up {
-      0% {
-        transform: scale(0);
-        opacity: 0;
-      }
-      100% {
-        transform: scale(1);
-        opacity: 1;
-      }
-    }
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  opacity: 0; /* Initial opacity for animation */
+  transform: scale(0); /* Initial scale for animation */
+  animation: pop-up 1s ease-out forwards;
+  animation-delay: 1.5s; /* Delay to allow AOS fade effect first */
+  color: #fff; /* Ensure text color is white */
+}
 
+.btn-primary:hover {
+  background-color: #28a745; /* Change to green on hover */
+  border-color: #28a745; /* Change border to green on hover */
+  color: #fff; /* Ensure text color remains white */
+}
 
 .btn-primary a {
   color: inherit; /* Inherit color from parent */
@@ -129,6 +121,7 @@
 .btn-primary a:hover {
   color: inherit; /* Inherit color from parent on hover */
 }
+
 
 
     .mouse {
@@ -204,7 +197,7 @@
         <h1 class="text-uppercase" data-aos="fade-up">PANORAKU</h1>
         <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">PANDUAN PENGOLAAN PERSEDIAAN BALAI POM DI BENGKULU</p>
       <div data-aos="fade-up" data-aos-delay="100">
-  <a href="https://heyzine.com/flip-book/514e9a5400.html" class="btn smoothscroll btn-primary mr-2 mb-2">LIHAT</a>
+ <a href="https://heyzine.com/flip-book/514e9a5400.html" class="btn smoothscroll btn-primary mr-2 mb-2">LIHAT</a>
 </div>
 
       </div>

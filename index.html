@@ -113,6 +113,17 @@
   color: #fff; /* Ensure text color remains white */
 }
 
+@keyframes pop-up {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .btn-primary a {
   color: inherit; /* Inherit color from parent */
   text-decoration: none; /* Remove underline */
@@ -121,8 +132,6 @@
 .btn-primary a:hover {
   color: inherit; /* Inherit color from parent on hover */
 }
-
-
 
     .mouse {
       position: absolute;
